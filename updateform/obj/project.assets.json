@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MIMI\\Source\\Repos\\csharp-assignment5\\updateform\\updateform\\updateform.csproj",
+      "projectUniqueName": "C:\\Users\\MIMI\\Documents\\GitHub\\projects\\project6\\csharp-assign6\\updateform\\updateform.csproj",
       "projectName": "updateform",
-      "projectPath": "C:\\Users\\MIMI\\Source\\Repos\\csharp-assignment5\\updateform\\updateform\\updateform.csproj",
+      "projectPath": "C:\\Users\\MIMI\\Documents\\GitHub\\projects\\project6\\csharp-assign6\\updateform\\updateform.csproj",
       "packagesPath": "C:\\Users\\MIMI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MIMI\\Source\\Repos\\csharp-assignment5\\updateform\\updateform\\obj\\",
+      "outputPath": "C:\\Users\\MIMI\\Documents\\GitHub\\projects\\project6\\csharp-assign6\\updateform\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MIMI\\AppData\\Roaming\\NuGet\\NuGet.Config",

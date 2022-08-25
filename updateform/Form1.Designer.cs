@@ -124,6 +124,7 @@
             this.tbinvnum.Name = "tbinvnum";
             this.tbinvnum.Size = new System.Drawing.Size(214, 23);
             this.tbinvnum.TabIndex = 6;
+            this.tbinvnum.TextChanged += new System.EventHandler(this.tbinvnum_TextChanged);
             // 
             // tbnum
             // 
@@ -304,6 +305,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DGV)).EndInit();
             this.ResumeLayout(false);

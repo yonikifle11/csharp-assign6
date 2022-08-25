@@ -73,7 +73,17 @@ namespace updateform
                 {
                     this.Close();
                 }
-            }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbinvnum_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 
 
 

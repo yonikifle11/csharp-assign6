@@ -32,7 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.tb2 = new System.Windows.Forms.TextBox();
             this.tb1 = new System.Windows.Forms.TextBox();
-            this.Add_bttn = new System.Windows.Forms.Button();
+            this.login_bttn = new System.Windows.Forms.Button();
             this.cancel_bttn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -69,16 +69,17 @@
             this.tb1.Name = "tb1";
             this.tb1.Size = new System.Drawing.Size(203, 23);
             this.tb1.TabIndex = 3;
+            this.tb1.TextChanged += new System.EventHandler(this.tb1_TextChanged);
             // 
-            // Add_bttn
+            // login_bttn
             // 
-            this.Add_bttn.Location = new System.Drawing.Point(322, 199);
-            this.Add_bttn.Name = "Add_bttn";
-            this.Add_bttn.Size = new System.Drawing.Size(75, 23);
-            this.Add_bttn.TabIndex = 4;
-            this.Add_bttn.Text = "add";
-            this.Add_bttn.UseVisualStyleBackColor = true;
-            this.Add_bttn.Click += new System.EventHandler(this.button1_Click);
+            this.login_bttn.Location = new System.Drawing.Point(322, 199);
+            this.login_bttn.Name = "login_bttn";
+            this.login_bttn.Size = new System.Drawing.Size(75, 23);
+            this.login_bttn.TabIndex = 4;
+            this.login_bttn.Text = "login";
+            this.login_bttn.UseVisualStyleBackColor = true;
+            this.login_bttn.Click += new System.EventHandler(this.button1_Click);
             // 
             // cancel_bttn
             // 
@@ -96,7 +97,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.cancel_bttn);
-            this.Controls.Add(this.Add_bttn);
+            this.Controls.Add(this.login_bttn);
             this.Controls.Add(this.tb1);
             this.Controls.Add(this.tb2);
             this.Controls.Add(this.label2);
@@ -114,7 +115,7 @@
         private Label label2;
         private TextBox tb2;
         private TextBox tb1;
-        private Button Add_bttn;
+        private Button login_bttn;
         private Button cancel_bttn;
     }
 }
