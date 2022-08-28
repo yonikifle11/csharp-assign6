@@ -30,14 +30,20 @@ namespace updateform
 
         private void displayToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+            }
+            display d = new display();
+            d.MdiParent = this;
+            d.Show();
         }
 
         private void searchToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (ActiveMdiChild != null)
             {
-                ActiveMdiChild.Close();
+                ActiveMdiChild.Close(); 
             }
             search s = new search();
             s.MdiParent = this;

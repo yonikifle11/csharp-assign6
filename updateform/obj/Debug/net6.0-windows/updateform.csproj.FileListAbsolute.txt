@@ -56,3 +56,4 @@ C:\Users\MIMI\Documents\GitHub\projects\project6\csharp-assign6\updateform\obj\D
 C:\Users\MIMI\Documents\GitHub\projects\project6\csharp-assign6\updateform\obj\Debug\net6.0-windows\updateform.search.resources
 C:\Users\MIMI\Documents\GitHub\projects\project6\csharp-assign6\updateform\obj\Debug\net6.0-windows\updateform.newform.resources
 C:\Users\MIMI\Documents\GitHub\projects\project6\csharp-assign6\updateform\obj\Debug\net6.0-windows\updateform.main.resources
+C:\Users\MIMI\Documents\GitHub\projects\project6\csharp-assign6\updateform\obj\Debug\net6.0-windows\updateform.display.resources

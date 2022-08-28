@@ -26,7 +26,7 @@ namespace updateform
             if ((tb1.Text=="Admin") && (tb2.Text == "Admin"))
             {
                 //this.Hide();
-                directory form = new directory();
+                main form = new main();
                 MessageBox.Show("you're granted access");
                 form.ShowDialog();
             }
@@ -44,6 +44,11 @@ namespace updateform
         }
 
         private void tb1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void login_Load(object sender, EventArgs e)
         {
 
         }
