@@ -46,8 +46,10 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.ColumnHeadersHeight = 29;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(240, 150);
             this.dataGridView1.TabIndex = 0;
             // 
@@ -64,6 +66,7 @@
             this.productType});
             this.dataGridView3.Location = new System.Drawing.Point(12, 101);
             this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.RowHeadersWidth = 51;
             this.dataGridView3.RowTemplate.Height = 25;
             this.dataGridView3.Size = new System.Drawing.Size(621, 211);
             this.dataGridView3.TabIndex = 0;
@@ -71,44 +74,58 @@
             // objectName
             // 
             this.objectName.HeaderText = "objectName";
+            this.objectName.MinimumWidth = 6;
             this.objectName.Name = "objectName";
+            this.objectName.Width = 125;
             // 
             // price
             // 
             this.price.HeaderText = "price";
+            this.price.MinimumWidth = 6;
             this.price.Name = "price";
+            this.price.Width = 125;
             // 
             // count
             // 
             this.count.HeaderText = "count";
+            this.count.MinimumWidth = 6;
             this.count.Name = "count";
+            this.count.Width = 125;
             // 
             // number
             // 
             this.number.HeaderText = "number";
+            this.number.MinimumWidth = 6;
             this.number.Name = "number";
+            this.number.Width = 125;
             // 
             // inventoryNumber
             // 
             this.inventoryNumber.HeaderText = "inventoryNumber";
+            this.inventoryNumber.MinimumWidth = 6;
             this.inventoryNumber.Name = "inventoryNumber";
+            this.inventoryNumber.Width = 125;
             // 
             // date
             // 
             this.date.HeaderText = "date";
+            this.date.MinimumWidth = 6;
             this.date.Name = "date";
+            this.date.Width = 125;
             // 
             // productType
             // 
             this.productType.HeaderText = "productType";
+            this.productType.MinimumWidth = 6;
             this.productType.Name = "productType";
+            this.productType.Width = 125;
             // 
             // Name
             // 
             this.Name.AutoSize = true;
             this.Name.Location = new System.Drawing.Point(12, 24);
             this.Name.Name = "Name";
-            this.Name.Size = new System.Drawing.Size(81, 15);
+            this.Name.Size = new System.Drawing.Size(101, 20);
             this.Name.TabIndex = 1;
             this.Name.Text = "productName";
             // 
@@ -116,7 +133,7 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(147, 21);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(264, 23);
+            this.textBox3.Size = new System.Drawing.Size(264, 27);
             this.textBox3.TabIndex = 2;
             // 
             // tbsearch
@@ -136,7 +153,9 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.Name);
             this.Controls.Add(this.dataGridView3);
-            //this.Name = "search";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            // this.Name = "search";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);

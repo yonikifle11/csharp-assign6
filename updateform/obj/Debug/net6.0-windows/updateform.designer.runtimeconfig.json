@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\MIMI\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\MIMI\\.nuget\\packages"
+      "C:\\Users\\cyberhelmet\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\cyberhelmet\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

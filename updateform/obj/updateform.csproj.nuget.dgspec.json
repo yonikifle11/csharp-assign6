@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MIMI\\Documents\\GitHub\\projects\\project6\\csharp-assign6\\updateform\\updateform.csproj": {}
+    "C:\\Users\\cyberhelmet\\Desktop\\csharp-assign6\\updateform\\updateform.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MIMI\\Documents\\GitHub\\projects\\project6\\csharp-assign6\\updateform\\updateform.csproj": {
+    "C:\\Users\\cyberhelmet\\Desktop\\csharp-assign6\\updateform\\updateform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MIMI\\Documents\\GitHub\\projects\\project6\\csharp-assign6\\updateform\\updateform.csproj",
+        "projectUniqueName": "C:\\Users\\cyberhelmet\\Desktop\\csharp-assign6\\updateform\\updateform.csproj",
         "projectName": "updateform",
-        "projectPath": "C:\\Users\\MIMI\\Documents\\GitHub\\projects\\project6\\csharp-assign6\\updateform\\updateform.csproj",
-        "packagesPath": "C:\\Users\\MIMI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MIMI\\Documents\\GitHub\\projects\\project6\\csharp-assign6\\updateform\\obj\\",
+        "projectPath": "C:\\Users\\cyberhelmet\\Desktop\\csharp-assign6\\updateform\\updateform.csproj",
+        "packagesPath": "C:\\Users\\cyberhelmet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cyberhelmet\\Desktop\\csharp-assign6\\updateform\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MIMI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cyberhelmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
