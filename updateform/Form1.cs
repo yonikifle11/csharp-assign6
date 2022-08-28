@@ -83,6 +83,11 @@ namespace updateform
         {
 
         }
+
+        private void tbnum_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 

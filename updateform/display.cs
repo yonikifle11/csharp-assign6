@@ -22,18 +22,18 @@ namespace updateform
             foreach (var item in Class1.GetAllProducts())
             {
                 productcard pc = new productcard();
-                pc. = item.number;
-                pc. = item.date;
-                pc. = item.InventoryNumber;
-                pc. = item.objectName;
-                pc. = item.Count;
-                pc. = item.price;
+                pc.number = item.number;
+                pc.date = item.date;
+                pc.InventoryNumber= item.InventoryNumber;
+                pc.objectName = item.objectName;
+                pc.count = item.count;
+                pc.price = item.price;
                 pc.Click += (Object o, EventArgs e2) =>
                 {
-                    detail d = new detail(item.number, item.date, item.InventoryNumber, item.objectName, item.Count, item.price);
+                    detail d = new detail(item.number, item.date, item.InventoryNumber, item.objectName, item.count, item.price);
                     d.Show();
                 };
-                flowLayoutPanel1.Controls.Add(pc);
+               // flowLayoutPanel1.Controls.Add(pc);
             }
         }
 

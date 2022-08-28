@@ -101,7 +101,7 @@
             // 
             this.count.AutoSize = true;
             this.count.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.count.Location = new System.Drawing.Point(266, 186);
+            this.count.Location = new System.Drawing.Point(24, 165);
             this.count.Name = "count";
             this.count.Size = new System.Drawing.Size(49, 21);
             this.count.TabIndex = 4;
@@ -132,6 +132,7 @@
             this.tbnum.Name = "tbnum";
             this.tbnum.Size = new System.Drawing.Size(121, 23);
             this.tbnum.TabIndex = 7;
+            this.tbnum.TextChanged += new System.EventHandler(this.tbnum_TextChanged);
             // 
             // tbprice
             // 
