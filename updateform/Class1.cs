@@ -21,11 +21,11 @@ namespace updateform
         {
             try
             {
-                string connString = @"Data Source = localhost; Initial Catalog = CS223labDB; Integrated Security = True";
+                string connString = @"Data Source = localhost; Initial Catalog = Sql; Integrated Security = True";
                 SqlConnection connection = new(connString);
                 connection.Open();
 
-                string query = "INSERT INTO Product VALUES('" +
+                string query = "INSERT INTO datas VALUES('" +
                 this.number + "', '" +
                 this.date + "', '" +
                 this.InventoryNumber + "', '" +
@@ -45,13 +45,13 @@ namespace updateform
         }
         public static List<Class1> GetAllProducts()
         {
-            string connString = @"Data Source = localhost; Initial Catalog = CS223labDB; Integrated Security = True";
+            string connString = @"Data Source = localhost; Initial Catalog = Sql; Integrated Security = True";
             SqlConnection connection = new(connString);
             connection.Open();
 
             List<Class1> list = new List<Class1>();
 
-            string query = "SELECT * FROM Product";
+            string query = "SELECT * FROM datas";
 
             try
             {
